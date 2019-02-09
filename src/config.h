@@ -181,11 +181,10 @@ typedef struct options_t {
 
 	// === Opacity ===
 	/// Default opacity for inactive windows.
-	/// 32-bit integer with the format of _NET_WM_OPACITY. 0 stands for
-	/// not enabled, default.
-	opacity_t inactive_opacity;
+	/// 32-bit integer with the format of _NET_WM_OPACITY.
+	double inactive_opacity;
 	/// Default opacity for inactive windows.
-	opacity_t active_opacity;
+	double active_opacity;
 	/// Whether inactive_opacity overrides the opacity set by window
 	/// attributes.
 	bool inactive_opacity_override;

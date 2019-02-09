@@ -856,7 +856,6 @@ cdbus_process_win_get(session_t *ps, DBusMessage *msg) {
   }
 
   cdbus_m_win_get_do(shadow, cdbus_reply_bool);
-  cdbus_m_win_get_do(fade, cdbus_reply_bool);
   cdbus_m_win_get_do(invert_color, cdbus_reply_bool);
   cdbus_m_win_get_do(blur_background, cdbus_reply_bool);
 #undef cdbus_m_win_get_do
